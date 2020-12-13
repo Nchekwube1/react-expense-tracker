@@ -1,0 +1,105 @@
+.balance {
+  position: relative;
+  width: 100%;
+  height: 20vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.balance .money {
+  width: 80%;
+  height: 100%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.balance .money .one {
+  width: 23%;
+  height: 80%;
+}
+
+.balance .money .one p {
+  color: black;
+  font-size: 23px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.balance .money .one .img {
+  position: relative;
+  width: 100%;
+  height: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.balance .money .one .img img {
+  position: absolute;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.balance .money .one .desc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 25px;
+  margin-top: 8%;
+  color: black;
+  font-family: cursive;
+}
+
+.balance .button {
+  position: relative;
+  width: 20%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.balance .button button {
+  width: 80%;
+  height: 30%;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  font-size: 18px;
+  text-transform: capitalize;
+  background-color: #e92929;
+  color: white;
+  outline: none;
+}
+/*# sourceMappingURL=balance.css.map */

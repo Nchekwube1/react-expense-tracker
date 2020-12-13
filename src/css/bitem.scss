@@ -1,0 +1,76 @@
+.item {
+  position: relative;
+  width: 80%;
+  height: 13%;
+  // border: 1px solid #f5f5f5;
+  // box-shadow: 3px 3px 3px rgb(155, 149, 149);
+  border: 1px solid rgb(155, 149, 149);
+  border-radius: 6px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 12px;
+  & .amount {
+    position: relative;
+    width: 75%;
+    height: 100%;
+    & .dol {
+      font-size: 25px;
+      color: rgb(13, 250, 0);
+      // font-family: cursive;
+      text-indent: 4px;
+    }
+    & .desc {
+      font-size: 17px;
+      color: black;
+      font-family: cursive;
+      text-indent: 10px;
+      text-transform: capitalize;
+    }
+  }
+  & .touch {
+    position: relative;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    & .edit {
+      position: relative;
+      width: 30%;
+      height: 50%;
+      background-color: transparent;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 3px;
+      & img {
+        max-width: 100%;
+        max-height: 100%;
+        position: absolute;
+      }
+    }
+    & .delete {
+      position: relative;
+      width: 30%;
+      height: 50%;
+      background-color: transparent;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 3px;
+      & img {
+        max-width: 100%;
+        max-height: 100%;
+        position: absolute;
+      }
+    }
+  }
+}

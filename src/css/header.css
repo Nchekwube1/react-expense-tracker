@@ -1,0 +1,23 @@
+.header {
+  width: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 8vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 8vh;
+  border-bottom: 1px solid #9b9595;
+  font-size: 25px;
+  color: black;
+  text-transform: uppercase;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+/*# sourceMappingURL=header.css.map */

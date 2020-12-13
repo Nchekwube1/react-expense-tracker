@@ -1,0 +1,21 @@
+.ediv {
+  width: 80%;
+  height: 12%;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 22px;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &.fail {
+    border: 1px solid rgb(253, 128, 128);
+    background-color: rgb(253, 128, 128);
+  }
+  &.succ {
+    border: 1px solid rgb(21, 248, 105);
+    background-color: rgb(21, 248, 105);
+  }
+}

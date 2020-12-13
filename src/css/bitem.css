@@ -1,0 +1,105 @@
+.item {
+  position: relative;
+  width: 80%;
+  height: 13%;
+  border: 1px solid #9b9595;
+  border-radius: 6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 12px;
+}
+
+.item .amount {
+  position: relative;
+  width: 75%;
+  height: 100%;
+}
+
+.item .amount .dol {
+  font-size: 25px;
+  color: #0dfa00;
+  text-indent: 4px;
+}
+
+.item .amount .desc {
+  font-size: 17px;
+  color: black;
+  font-family: cursive;
+  text-indent: 10px;
+  text-transform: capitalize;
+}
+
+.item .touch {
+  position: relative;
+  width: 25%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.item .touch .edit {
+  position: relative;
+  width: 30%;
+  height: 50%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 3px;
+}
+
+.item .touch .edit img {
+  max-width: 100%;
+  max-height: 100%;
+  position: absolute;
+}
+
+.item .touch .delete {
+  position: relative;
+  width: 30%;
+  height: 50%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 3px;
+}
+
+.item .touch .delete img {
+  max-width: 100%;
+  max-height: 100%;
+  position: absolute;
+}
+/*# sourceMappingURL=bitem.css.map */

@@ -1,0 +1,106 @@
+.eitem {
+  position: relative;
+  width: 80%;
+  height: 13%;
+  border: 1px solid #9b9595;
+  border-radius: 6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 12px;
+}
+
+.eitem .eamount {
+  position: relative;
+  width: 75%;
+  height: 100%;
+}
+
+.eitem .eamount .edol {
+  font-size: 25px;
+  color: red;
+  font-family: cursive;
+  text-indent: 4px;
+}
+
+.eitem .eamount .edesc {
+  font-size: 17px;
+  color: black;
+  font-family: cursive;
+  text-indent: 10px;
+  text-transform: capitalize;
+}
+
+.eitem .etouch {
+  position: relative;
+  width: 25%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.eitem .etouch .eedit {
+  position: relative;
+  width: 30%;
+  height: 50%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 3px;
+}
+
+.eitem .etouch .eedit img {
+  max-width: 100%;
+  max-height: 100%;
+  position: absolute;
+}
+
+.eitem .etouch .edelete {
+  position: relative;
+  width: 30%;
+  height: 50%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 3px;
+}
+
+.eitem .etouch .edelete img {
+  max-width: 100%;
+  max-height: 100%;
+  position: absolute;
+}
+/*# sourceMappingURL=eitem.css.map */
