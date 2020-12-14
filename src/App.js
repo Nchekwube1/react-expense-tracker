@@ -8,14 +8,14 @@ import Blist from "./blist";
 import Elist from "./elist";
 
 function App() {
-  const [bIn, setBin] = useState([]);
+  const [bIn, setBin] = useState(initialBudget);
   const [inb, setInb] = useState("");
   const [desB, setDesb] = useState("");
   const [berr, setBerr] = useState(false);
   const [bderr, setBderr] = useState(false);
   const [badd, setBadd] = useState(false);
 
-  const [eIn, setEin] = useState([]);
+  const [eIn, setEin] = useState(initialExpense);
   const [ine, setIne] = useState("");
   const [desE, setDese] = useState("");
   const [eerr, setEerr] = useState(false);
@@ -24,9 +24,29 @@ function App() {
 
   const [alert, setAlert] = useState({});
 
+  function initialBudget() {
+    const bud = localStorage.getItem("budget");
+    if (bud) {
+      return JSON.parse(localStorage.getItem("budget"));
+    } else {
+      return [];
+    }
+  }
+  function initialExpense() {
+    const exp = localStorage.getItem("expense");
+    if (exp) {
+      return JSON.parse(localStorage.getItem("expense"));
+    } else {
+      return [];
+    }
+  }
+
   useEffect(() => {
-    // console.log(bIn);
-  }, [bIn, eIn]);
+    localStorage.setItem("budget", JSON.stringify(bIn));
+  }, [bIn]);
+  useEffect(() => {
+    localStorage.setItem("expense", JSON.stringify(eIn));
+  }, [eIn]);
 
   function bf(e) {
     e.preventDefault();
